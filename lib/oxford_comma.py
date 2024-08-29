@@ -1,2 +1,4 @@
 def oxford_comma(items):
-    return None
+    new_items = ', '.join(items)
+    return new_items
+print(oxford_comma(['tree', 'bush', 'house']))
